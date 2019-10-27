@@ -1,0 +1,7 @@
+@import '../../styles/mixins';
+
+.spinner {
+  @include flexCenter(column, center);
+  width: 92px;
+  height: 40px;
+}

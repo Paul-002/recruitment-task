@@ -1,0 +1,12 @@
+@mixin flexCenter($flexDirection, $justify-content) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justify-content;
+  align-items: center;
+}
+
+@mixin movieItemFontStyle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}

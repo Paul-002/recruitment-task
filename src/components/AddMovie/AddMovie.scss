@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+@import '../../styles/itemStyleComponent';
+@import '../../styles//mixins';
+
+.panel2 {
+  .panel2-item {
+    @include flexCenter(row, flex-start);
+    position: relative;
+    min-width: 302px;
+    height: 48px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 1px rgba(196, 196, 196, 0.2);
+    border-radius: 4px;
+
+    h3 {
+      @include movieItemFontStyle;
+      margin-left: 10px;
+      color: $fontColor;
+    }
+
+    button {
+      all: unset;
+      position: absolute;
+      right: 10px;
+      height: 18px;
+    }
+  }
+  .panel2-collapse {
+    background-color: #ffffff;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+
+    .panel2-body {
+      background-color: #ffffff;
+
+      .elements-container {
+        justify-content: flex-start;
+        padding: 10px;
+
+        .button-align {
+          @include flexCenter(row, center);
+        }
+      }
+    }
+  }
+}

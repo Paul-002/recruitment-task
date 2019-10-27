@@ -1,0 +1,7 @@
+@import '../../styles/mixins';
+
+.app-header {
+  @include flexCenter(column, center);
+  margin-top: 35px;
+  height: 100px;
+}

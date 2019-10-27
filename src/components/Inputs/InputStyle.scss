@@ -1,0 +1,26 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    color: #555555;
+    font-size: 12px;
+  }
+
+  .invalid {
+    color: #ff1616;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid #999999;
+    font-size: 16px;
+    padding-left: 3px;
+    height: 32px;
+    color: #555555;
+  }
+  & :focus {
+    outline: none;
+    background-color: #fdffe2;
+  }
+}

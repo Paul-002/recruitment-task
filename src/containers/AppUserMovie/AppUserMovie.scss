@@ -1,0 +1,7 @@
+@import '../../styles/mixins';
+
+.app-user-movie {
+  @include flexCenter(column, center);
+  align-items: normal;
+  margin: 16px;
+}

@@ -1,8 +1,7 @@
 import React from 'react'
 import './App.scss'
+import Layout from './hoc/Layout'
 
-function App() {
-  return <h1>Hello world!</h1>
-}
+const App = () => <Layout />
 
 export default App

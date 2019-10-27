@@ -1,0 +1,8 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.app-container {
+  @include flexCenter(column, center);
+  background-color: $containerColor;
+  border-radius: $borderRadius;
+}

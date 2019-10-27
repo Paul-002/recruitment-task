@@ -1,0 +1,28 @@
+@import '../../styles/mixins';
+
+.badge {
+  @include flexCenter(row, center);
+  border: 1px solid #999999;
+  border-radius: 18px;
+  max-width: 132px;
+  height: 32px;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #474747;
+
+  span {
+    height: 20px;
+    line-height: 19px;
+  }
+
+  .badge-button {
+    all: unset;
+    margin-left: 13px;
+
+    svg {
+      pointer-events: none;
+    }
+  }
+}

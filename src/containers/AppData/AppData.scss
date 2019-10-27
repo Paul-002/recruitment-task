@@ -1,0 +1,7 @@
+@import '../../styles/mixins';
+
+.app-data {
+  @include flexCenter(column, flex-start);
+  align-items: normal;
+  margin: 16px;
+}
