@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/recruitment-task/static/css/main.8bfae92e.chunk.css",
+    "main.js": "/recruitment-task/static/js/main.2397ba33.chunk.js",
+    "main.js.map": "/recruitment-task/static/js/main.2397ba33.chunk.js.map",
+    "runtime-main.js": "/recruitment-task/static/js/runtime-main.53c83b9b.js",
+    "runtime-main.js.map": "/recruitment-task/static/js/runtime-main.53c83b9b.js.map",
+    "static/js/2.57dfc943.chunk.js": "/recruitment-task/static/js/2.57dfc943.chunk.js",
+    "static/js/2.57dfc943.chunk.js.map": "/recruitment-task/static/js/2.57dfc943.chunk.js.map",
+    "index.html": "/recruitment-task/index.html",
+    "precache-manifest.929235fdd378b992fe13c3797cc1013e.js": "/recruitment-task/precache-manifest.929235fdd378b992fe13c3797cc1013e.js",
+    "service-worker.js": "/recruitment-task/service-worker.js",
+    "static/css/main.8bfae92e.chunk.css.map": "/recruitment-task/static/css/main.8bfae92e.chunk.css.map",
+    "static/media/ARROW_CLOSE.81e948ad.svg": "/recruitment-task/static/media/ARROW_CLOSE.81e948ad.svg",
+    "static/media/ARROW_OPEN.da45c4c0.svg": "/recruitment-task/static/media/ARROW_OPEN.da45c4c0.svg",
+    "static/media/CROSS.de203a0d.svg": "/recruitment-task/static/media/CROSS.de203a0d.svg",
+    "static/media/LOGO.79977f05.svg": "/recruitment-task/static/media/LOGO.79977f05.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53c83b9b.js",
+    "static/js/2.57dfc943.chunk.js",
+    "static/css/main.8bfae92e.chunk.css",
+    "static/js/main.2397ba33.chunk.js"
+  ]
+}
